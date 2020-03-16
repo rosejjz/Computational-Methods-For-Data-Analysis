@@ -28,7 +28,7 @@ for j = 1:length(a)
     pcolor(ts, ks, sgtspec.'), shading interp
     xlabel('Time(sec)');
     ylabel('Frequency(\omega)');
-    title("Spectrogam through Gábor filtering with width = " + num2str(curr) + " and dt = 0.1");
+    title("Spectrogam through GÃ¡bor filtering with width = " + num2str(curr) + " and dt = 0.1");
     colormap(hot)
 end
 
@@ -49,7 +49,7 @@ for j = 1:length(dt)
     pcolor(ts, ks, sgtspec.'), shading interp
     xlabel('Time(sec)');
     ylabel('Frequency(\omega)');
-    title("Spectrogam through Gábor filtering with width = 1 and dt = " + num2str(dt(j)));
+    title("Spectrogam through GÃ¡bor filtering with width = 1 and dt = " + num2str(dt(j)));
     colormap(hot)
 end
 
